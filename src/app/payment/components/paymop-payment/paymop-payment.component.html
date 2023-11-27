@@ -1,0 +1,26 @@
+<section class="component">
+    <div class="credit-card">
+      <h2>PayMob</h2>
+      <form [formGroup]="paymobForm" class="login-form">
+        <app-custom-input 
+        [labelName]="'Amount'"
+        [control]=" $any(paymobForm).get('tuitionAmount')"
+      ></app-custom-input>
+        <mat-form-field appearance="outline">
+            <mat-label>Type</mat-label>
+            <mat-select formControlName="type" >
+              <mat-option  [value]="1">
+              Cash
+              </mat-option>
+              <mat-option  [value]="2">
+                Credit
+                </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <button type="submit" class="valid-button" (click)="pay()">Confirm</button>
+    </form>
+    </div>
+  </section>
+  
+  
+

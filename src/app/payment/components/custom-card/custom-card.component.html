@@ -1,0 +1,14 @@
+<div id='card' class="animated fadeIn">
+    <div id='upper-side'>
+        <ng-lottie [options]="options"></ng-lottie>
+        <h3 id='status'>
+    {{status}}
+      </h3>
+    </div>
+    <div id='lower-side'>
+      <p id='message'>
+        {{ message }}
+      </p>
+      <ng-content select="[customCardButton]"></ng-content>
+    </div>
+  </div>

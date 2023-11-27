@@ -1,0 +1,12 @@
+<section class="component">
+  <div class="credit-card">
+    <h2>Cib</h2>
+    <form [formGroup]="cibForm" class="login-form">
+      <app-custom-input 
+      [labelName]="'Amount'"
+      [control]=" $any(cibForm).get('tuitionAmount')"
+    ></app-custom-input>
+        <button type="submit" class="valid-button" (click)="pay()">Confirm</button>
+  </form>
+  </div>
+</section>
