@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/halafarag/payment_integration.git
 
 ## Features
 - Paymob Integration: Seamless integration of Paymob for Credit & Kiosk payments.
