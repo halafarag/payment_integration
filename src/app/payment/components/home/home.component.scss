@@ -82,3 +82,9 @@
     border-radius: 8px;
     font-weight: bold;
 }
+@media (width:320px) {
+    .image{
+        width: 190px !important;
+        background-color: red !important;
+    }
+}

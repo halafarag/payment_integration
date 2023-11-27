@@ -26,14 +26,17 @@ export class PaymopPaymentComponent {
   pay() {
     const data = this.paymobForm.value;
     console.log(data);
-
     this.payService.sendPayMob(data).subscribe((res) => {
       console.log(res);
       this.response = res.response;
       localStorage.setItem('refNumber', this.response);
       console.log(this.response);
-      // this.router.navigate(['paymob', this.response]);
-      this.router.navigate(['success']);
+      // window.open(`${this.response}`, '_blank');
+      if (data.type == '1') {
+        this.router.navigate(['success']);
+      } else if (data.type == '2') {
+        this.router.navigate(['paymob', this.response]);
+      }
     });
   }
 }

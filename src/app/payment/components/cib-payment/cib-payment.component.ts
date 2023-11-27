@@ -29,6 +29,7 @@ export class CibPaymentComponent implements OnInit {
     this.payService.sendToCib(data).subscribe((data) => {
       this.redirectPage = data.response;
       this.router.navigate(['cib', this.redirectPage]);
+      // window.open(`${this.redirectPage}`, '_blank');
     });
   }
 }
