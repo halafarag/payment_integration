@@ -17,8 +17,8 @@ Before you begin, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [Angular CLI](https://angular.io/cli)
-- [Paymob Account]
-- [MPGS Account]
+- Paymob Account
+- MPGS Account
 
 ## Installation
 
