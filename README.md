@@ -1,28 +1,32 @@
-# Payment
+# Angular Paymob and MPGS Integration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This Angular project demonstrates the integration of Paymob for Credit & Kiosk payments and MPGS (Mastercard Payment Gateway Services) for secure payment processing. Follow the instructions below to set up and run the project locally.
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Features](#features)
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before you begin, ensure you have the following installed:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
+- [Paymob Account]
+- [MPGS Account]
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+1. Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/your-username/your-project.git
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# payment_integration
+## Features
+- Paymob Integration: Seamless integration of Paymob for Credit & Kiosk payments.
+- MPGS Integration: Secure payment processing using Mastercard Payment Gateway Services.
